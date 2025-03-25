@@ -1,5 +1,5 @@
-const app = require('./src/app');
 require('dotenv').config();
+const app = require('./src/app');
 // console.log(process.env.GOOGLE_GEMINI_KEY);
 
 
