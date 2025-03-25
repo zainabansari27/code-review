@@ -1,5 +1,8 @@
 const express = require('express');
 const aiRoutes = require('./routes/ai.routes')
+// require('dotenv').config();
+
+// console.log(process.env.GOOGLE_GEMINI_KEY,"in app ");
 
 const app = express();
 
